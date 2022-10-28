@@ -51,10 +51,10 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Poppins", sans-serif;
+  --bs-font-sans-serif: "Tahoma", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Poppins, sans-serif;
+  --bs-body-font-family: Tahoma, sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -4721,7 +4721,7 @@ textarea.form-control-lg {
   z-index: 1080;
   display: block;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Tahoma", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -4806,7 +4806,7 @@ textarea.form-control-lg {
   z-index: 1070;
   display: block;
   max-width: 276px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Tahoma", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9826,7 +9826,7 @@ section {
 
 body {
   font-size: 1rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "Tahoma", sans-serif;
   line-height: 1.6;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -10105,9 +10105,9 @@ span + .icon {
         color: #1e1e1f; }
         .header-top-menu li a:hover {
           color: #f44336; }
-  .header-top-action .social-links {
+  /* .header-top-action .social-links {
     border-right: 1px solid #e9ecef;
-    padding-right: 10px; }
+    padding-right: 10px; } */
   .header-top-action .header-top-menu {
     padding-left: 26px; }
 
