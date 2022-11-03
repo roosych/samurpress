@@ -12,6 +12,8 @@
 
     <link rel="icon" sizes="16x16" href="images/favicon.png">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.css" />
+
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -69,6 +71,7 @@
                         <nav class="header-menu ms-lg-5"> 
                             <ul class="menu-list">
                                 <li class="menu-item"><a href="index.html" class="menu-link">Главная</a></li>
+                                <li class="menu-item"><a href="notices.html" class="menu-link">Анонсы</a></li>
                                 <li class="menu-item"><a href="news-list.html" class="menu-link">Новости</a></li>
                                 <li class="menu-item"><a href="articles-list.html" class="menu-link">Статьи</a></li>
                                 <li class="menu-item"><a href="about.html" class="menu-link">О проекте</a></li>
@@ -109,15 +112,20 @@
                     "0":{"slidesPerView":1,"slidesPerGroup":1},
                     "768":{"slidesPerView":2,"slidesPerGroup":2},
                     "992":{"slidesPerView":3,"slidesPerGroup":3}
-                    }' data-loop="true" data-autoplay="true" data-speed="3000" data-centeredslides="false">
+                    }' data-loop="true" data-autoplay="true" data-speed="4000" data-centeredslides="false">
                     <div class="swiper-wrapper">
 
                         <div class="swiper-slide">
-                            <div class="card border-0">
+                            <div class="card border-0 card-horizontal hover-elastic">
+                                <div class="card-img-wrap" style="height: 100%">
+                                    <a href="news-item.html">
+                                        <img src="images/news/nature2.jpg" alt="" class="card-img">
+                                    </a>
+                                </div>
                                 <div class="card-body p-0">
                                     <div class="card-body-inner">
                                         <ul class="post-cat">
-                                            <li><a href="news-item.html" class="badge bg-light"><span class="dot text-primary"></span><span>Новости</span></a></li>
+                                            <li><a href="news-list.html" class="badge bg-light"><span class="dot text-primary"></span><span>Новости</span></a></li>
                                             <li><a href="news-category.html" class="badge bg-light"><span class="dot text-primary"></span><span>Искусство</span></a></li>
                                         </ul>
                                         <h5 class="card-title">
@@ -125,7 +133,6 @@
                                                 Lorem ipsum dolor sit amet consectetur adipisicing.
                                             </a>
                                         </h5>
-                                        <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quibusdam rem molestias...</p>
                                         <ul class="meta list-dot">
                                             <li>25 ноя, 2022</li>
                                             <li>
@@ -136,23 +143,22 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
+                            </div> 
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="card border-0">
+                            <div class="card border-0 card-horizontal hover-elastic">
                                 <div class="card-body p-0">
                                     <div class="card-body-inner">
                                         <ul class="post-cat">
                                             <li><a href="articles-list.html" class="badge bg-light"><span class="dot text-primary"></span><span>Статьи</span></a></li>
-                                            <li><a href="article-category.html" class="badge bg-light"><span class="dot text-primary"></span><span>Литература</span></a></li>
+                                            <li><a href="article-category.html" class="badge bg-light"><span class="dot text-primary"></span><span>Образование</span></a></li>
                                         </ul>
                                         <h5 class="card-title">
                                             <a href="article-item.html" class="hover-underline">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing.
                                             </a>
                                         </h5>
-                                        <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quibusdam rem molestias...</p>
                                         <ul class="meta list-dot">
                                             <li>25 ноя, 2022</li>
                                             <li>
@@ -163,22 +169,31 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
+                            </div> 
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="card border-0">
+                            <div class="card border-0 card-horizontal hover-elastic">
+                                <div class="card-img-wrap" style="height: 100%">
+                                    <a href="notice-item.html">
+                                        <img src="images/notice/people.jpg" alt="" class="card-img">
+                                        <a href="https://www.youtube.com/watch?v=Tb6a_SxxkJg" data-lity>
+                                            <div class="card-cat-icon icon-wbg circle sm">
+                                                <i class="fa fa-play icon"></i>
+                                            </div>
+                                        </a>
+                                    </a>
+                                </div>
                                 <div class="card-body p-0">
                                     <div class="card-body-inner">
                                         <ul class="post-cat">
                                             <li><a href="notices.html" class="badge bg-light"><span class="dot text-primary"></span><span>Объявления</span></a></li>
                                         </ul>
                                         <h5 class="card-title">
-                                            <a href="notice-item.html" class="hover-underline">
+                                            <a href="notices-item.html" class="hover-underline">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing.
                                             </a>
                                         </h5>
-                                        <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quibusdam rem molestias...</p>
                                         <ul class="meta list-dot">
                                             <li>25 ноя, 2022</li>
                                             <li>
@@ -189,33 +204,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="card border-0">
-                                <div class="card-body p-0">
-                                    <div class="card-body-inner">
-                                        <ul class="post-cat">
-                                            <li><a href="notices.html" class="badge bg-light"><span class="dot text-primary"></span><span>Объявления</span></a></li>
-                                        </ul>
-                                        <h5 class="card-title">
-                                            <a href="notice-item.html" class="hover-underline">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing.
-                                            </a>
-                                        </h5>
-                                        <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quibusdam rem molestias...</p>
-                                        <ul class="meta list-dot">
-                                            <li>25 ноя, 2022</li>
-                                            <li>
-                                                <span class="icon-text sm">
-                                                    <i class="fal fa-eye icon"></i><span class="cat-num">123</span>
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                            </div> 
                         </div>
 
                     </div>
@@ -238,7 +227,7 @@
                             <div class="card border-0 card-horizontal hover-elastic">
                                 <div class="card-img-wrap lg">
                                     <a href="news-item.html">
-                                        <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
+                                        <img src="images/news/nature.jpg" alt="" class="card-img">
                                     </a>
                                 </div>
                                 <div class="card-body">
@@ -271,7 +260,7 @@
                             <div class="card border-0 card-horizontal hover-elastic">
                                 <div class="card-img-wrap lg">
                                     <a href="news-item.html">
-                                        <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
+                                        <img src="images/news/nature2.jpg" alt="" class="card-img">
                                     </a>
                                 </div>
                                 <div class="card-body">
@@ -304,7 +293,7 @@
                             <div class="card border-0 card-horizontal hover-elastic">
                                 <div class="card-img-wrap lg">
                                     <a href="news-item.html">
-                                        <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
+                                        <img src="images/news/nature.jpg" alt="" class="card-img">
                                     </a>
                                 </div>
                                 <div class="card-body">
@@ -337,7 +326,7 @@
                             <div class="card border-0 card-horizontal hover-elastic">
                                 <div class="card-img-wrap lg">
                                     <a href="news-item.html">
-                                        <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
+                                        <img src="images/news/nature2.jpg" alt="" class="card-img">
                                     </a>
                                 </div>
                                 <div class="card-body">
@@ -370,7 +359,7 @@
                             <div class="card border-0 card-horizontal hover-elastic">
                                 <div class="card-img-wrap lg">
                                     <a href="news-item.html">
-                                        <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
+                                        <img src="images/news/nature.jpg" alt="" class="card-img">
                                     </a>
                                 </div>
                                 <div class="card-body">
@@ -399,6 +388,9 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="mt-5 text-center">
+                            <a href="news-list.html" class="btn btn-primary">Все новости</a>
                         </div>
                     </div>
                     <div class="col-lg-4 ps-lg-4 pt-5 pt-lg-0">
@@ -460,89 +452,73 @@
                             </div>
                             <div class="sidebar-item">
                                 <h5 class="title mb-4 pipe">Популярные</h5>
-                                <div class="card-list gy-4">
+                                <div class="row g-gs">
 
-                                    <div class="card border-0 card-horizontal">
-                                        <div class="card-img-wrap sm">
-                                            <a href="news-item.html">
-                                                <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
-                                            </a>
-                                        </div>
-                                        <div class="card-body">
-                                            <div class="card-body-inner">
-                                                <h6 class="card-title">
-                                                    <a href="news-item.html" class="hover-underline">
-                                                        Lorem ipsum dolor sit, amet consectetur adipisicing.
-                                                    </a>
-                                                </h6>
-                                                <ul class="meta list-dot">
-                                                    <li>28 окт, 2022</li>
-                                                </ul>
+                                    <div class="col-sm-4 col-lg-6">
+                                        <div class="card border-0 card-s5">
+                                            <div class="card-img-wrap">
+                                                <img src="images/news/nature2.jpg" alt="" class="card-img">
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="card-body-inner">
+                                                    <h6 class="card-title mb-1"><a href="news-item.html" class="hover-underline">Lorem ipsum dolor sit amet consectetur.</a></h6>
+                                                    <ul class="meta list-dot mb-0">
+                                                        <li>20 май, 2022</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="card border-0 card-horizontal">
-                                        <div class="card-img-wrap sm">
-                                            <a href="news-item.html">
-                                                <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
-                                            </a>
-                                        </div>
-                                        <div class="card-body">
-                                            <div class="card-body-inner">
-                                                <h6 class="card-title">
-                                                    <a href="news-item.html" class="hover-underline">
-                                                        Lorem ipsum dolor sit, amet consectetur adipisicing.
-                                                    </a>
-                                                </h6>
-                                                <ul class="meta list-dot">
-                                                    <li>28 окт, 2022</li>
-                                                </ul>
+                                    <div class="col-sm-4 col-lg-6">
+                                        <div class="card border-0 card-s5">
+                                            <div class="card-img-wrap">
+                                                <img src="images/news/nature2.jpg" alt="" class="card-img">
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="card-body-inner">
+                                                    <h6 class="card-title mb-1"><a href="news-item.html" class="hover-underline">Lorem ipsum dolor sit amet consectetur.</a></h6>
+                                                    <ul class="meta list-dot mb-0">
+                                                        <li>20 май, 2022</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="card border-0 card-horizontal">
-                                        <div class="card-img-wrap sm">
-                                            <a href="news-item.html">
-                                                <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
-                                            </a>
-                                        </div>
-                                        <div class="card-body">
-                                            <div class="card-body-inner">
-                                                <h6 class="card-title">
-                                                    <a href="news-item.html" class="hover-underline">
-                                                        Lorem ipsum dolor sit, amet consectetur adipisicing.
-                                                    </a>
-                                                </h6>
-                                                <ul class="meta list-dot">
-                                                    <li>28 окт, 2022</li>
-                                                </ul>
+                                    <div class="col-sm-4 col-lg-6">
+                                        <div class="card border-0 card-s5">
+                                            <div class="card-img-wrap">
+                                                <img src="images/news/nature2.jpg" alt="" class="card-img">
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="card-body-inner">
+                                                    <h6 class="card-title mb-1"><a href="news-item.html" class="hover-underline">Lorem ipsum dolor sit amet consectetur.</a></h6>
+                                                    <ul class="meta list-dot mb-0">
+                                                        <li>20 май, 2022</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="card border-0 card-horizontal">
-                                        <div class="card-img-wrap sm">
-                                            <a href="news-item.html">
-                                                <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
-                                            </a>
-                                        </div>
-                                        <div class="card-body">
-                                            <div class="card-body-inner">
-                                                <h6 class="card-title">
-                                                    <a href="news-item.html" class="hover-underline">
-                                                        Lorem ipsum dolor sit, amet consectetur adipisicing.
-                                                    </a>
-                                                </h6>
-                                                <ul class="meta list-dot">
-                                                    <li>28 окт, 2022</li>
-                                                </ul>
+                                    <div class="col-sm-4 col-lg-6">
+                                        <div class="card border-0 card-s5">
+                                            <div class="card-img-wrap">
+                                                <img src="images/news/nature2.jpg" alt="" class="card-img">
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="card-body-inner">
+                                                    <h6 class="card-title mb-1"><a href="news-item.html" class="hover-underline">Lorem ipsum dolor sit amet consectetur.</a></h6>
+                                                    <ul class="meta list-dot mb-0">
+                                                        <li>20 май, 2022</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                 </div><!-- .card-list -->                                 
+                                </div>                                 
                             </div>
 
                         </div>
@@ -550,10 +526,8 @@
                 </div>
             </div>
         </section>
-
-
         
-        <section class="post-section section-space-t bg-light-100">
+        <section class="post-section section-space-sm bg-light-100">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 pe-lg-4">
@@ -567,14 +541,14 @@
                             <div class="col-lg-6">
                                 <div class="card border-0 card-s2">
                                     <div class="card-img-wrap">
-                                        <a href="#">
-                                            <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
+                                        <a href="article-item.html">
+                                            <img src="images/article/nature.jpg" alt="" class="card-img">
                                         </a>
-                                    </div><!-- .post-img -->
+                                    </div> 
                                     <div class="card-body">
                                         <div class="card-body-inner">
                                             <h4 class="card-title">
-                                                <a href="post-single.html" class="hover-underline">
+                                                <a href="article-item.html" class="hover-underline">
                                                     Lorem ipsum dolor sit amet consectetur adipisicing.
                                                 </a>
                                             </h4>
@@ -590,14 +564,14 @@
                             <div class="col-lg-6">
                                 <div class="card border-0 card-s2">
                                     <div class="card-img-wrap">
-                                        <a href="#">
-                                            <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
+                                        <a href="article-item.html">
+                                            <img src="images/article/nature.jpg" alt="" class="card-img">
                                         </a>
-                                    </div><!-- .post-img -->
+                                    </div> 
                                     <div class="card-body">
                                         <div class="card-body-inner">
                                             <h4 class="card-title">
-                                                <a href="post-single.html" class="hover-underline">
+                                                <a href="article-item.html" class="hover-underline">
                                                     Lorem ipsum dolor sit amet consectetur adipisicing.
                                                 </a>
                                             </h4>
@@ -613,14 +587,14 @@
                             <div class="col-lg-6">
                                 <div class="card border-0 card-s2">
                                     <div class="card-img-wrap">
-                                        <a href="#">
-                                            <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
+                                        <a href="article-item.html">
+                                            <img src="images/article/nature.jpg" alt="" class="card-img">
                                         </a>
-                                    </div><!-- .post-img -->
+                                    </div> 
                                     <div class="card-body">
                                         <div class="card-body-inner">
                                             <h4 class="card-title">
-                                                <a href="post-single.html" class="hover-underline">
+                                                <a href="article-item.html" class="hover-underline">
                                                     Lorem ipsum dolor sit amet consectetur adipisicing.
                                                 </a>
                                             </h4>
@@ -636,14 +610,14 @@
                             <div class="col-lg-6">
                                 <div class="card border-0 card-s2">
                                     <div class="card-img-wrap">
-                                        <a href="#">
-                                            <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
+                                        <a href="article-item.html">
+                                            <img src="images/article/nature.jpg" alt="" class="card-img">
                                         </a>
-                                    </div><!-- .post-img -->
+                                    </div> 
                                     <div class="card-body">
                                         <div class="card-body-inner">
                                             <h4 class="card-title">
-                                                <a href="post-single.html" class="hover-underline">
+                                                <a href="article-item.html" class="hover-underline">
                                                     Lorem ipsum dolor sit amet consectetur adipisicing.
                                                 </a>
                                             </h4>
@@ -659,14 +633,14 @@
                             <div class="col-lg-6">
                                 <div class="card border-0 card-s2">
                                     <div class="card-img-wrap">
-                                        <a href="#">
-                                            <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
+                                        <a href="article-item.html">
+                                            <img src="images/article/nature.jpg" alt="" class="card-img">
                                         </a>
-                                    </div><!-- .post-img -->
+                                    </div> 
                                     <div class="card-body">
                                         <div class="card-body-inner">
                                             <h4 class="card-title">
-                                                <a href="post-single.html" class="hover-underline">
+                                                <a href="article-item.html" class="hover-underline">
                                                     Lorem ipsum dolor sit amet consectetur adipisicing.
                                                 </a>
                                             </h4>
@@ -682,14 +656,14 @@
                             <div class="col-lg-6">
                                 <div class="card border-0 card-s2">
                                     <div class="card-img-wrap">
-                                        <a href="#">
-                                            <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
+                                        <a href="article-item.html">
+                                            <img src="images/article/nature.jpg" alt="" class="card-img">
                                         </a>
-                                    </div><!-- .post-img -->
+                                    </div> 
                                     <div class="card-body">
                                         <div class="card-body-inner">
                                             <h4 class="card-title">
-                                                <a href="post-single.html" class="hover-underline">
+                                                <a href="article-item.html" class="hover-underline">
                                                     Lorem ipsum dolor sit amet consectetur adipisicing.
                                                 </a>
                                             </h4>
@@ -704,7 +678,7 @@
 
                         </div>
                         <div class="mt-5 text-center">
-                            <a href="#" class="btn btn-primary">Все статьи</a>
+                            <a href="articles-list.html" class="btn btn-primary">Все статьи</a>
                         </div>
                     </div>
                     <div class="col-lg-4 ps-lg-4 pt-5 pt-lg-0">
@@ -768,87 +742,53 @@
                                 <h5 class="title mb-4 pipe">Популярные</h5>
                                 <div class="card-list gy-4">
 
-                                    <div class="card border-0 card-horizontal">
-                                        <div class="card-img-wrap sm">
-                                            <a href="#">
-                                                <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
-                                            </a>
+                                    <div class="card border-0 card-s2">
+                                        <div class="card-img-wrap">
+                                            <img src="images/article/nature.jpg" alt="" class="card-img">
                                         </div>
                                         <div class="card-body">
                                             <div class="card-body-inner">
-                                                <h6 class="card-title">
-                                                    <a href="post-single.html" class="hover-underline">
-                                                        Lorem ipsum dolor sit, amet consectetur adipisicing.
-                                                    </a>
-                                                </h6>
+                                                <ul class="post-cat">
+                                                    <li><a href="#" class="badge bg-light"><span class="dot text-primary"></span><span>Литература</span></a></li>
+                                                    <li>
+                                                        <span class="icon-text sm">
+                                                            <i class="fal fa-eye icon"></i><span class="cat-num">58</span>
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                                <h6 class="card-title"><a href="article-item.html" class="title-mask">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, dignissimos</a></h6>
                                                 <ul class="meta list-dot">
-                                                    <li>28 окт, 2022</li>
+                                                    <li>Автор</li>
+                                                    <li>20 мая, 2022</li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="card border-0 card-horizontal">
-                                        <div class="card-img-wrap sm">
-                                            <a href="#">
-                                                <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
-                                            </a>
+                                    <div class="card border-0 card-s2">
+                                        <div class="card-img-wrap">
+                                            <img src="images/article/nature.jpg" alt="" class="card-img">
                                         </div>
                                         <div class="card-body">
                                             <div class="card-body-inner">
-                                                <h6 class="card-title">
-                                                    <a href="post-single.html" class="hover-underline">
-                                                        Lorem ipsum dolor sit, amet consectetur adipisicing.
-                                                    </a>
-                                                </h6>
+                                                <ul class="post-cat">
+                                                    <li><a href="#" class="badge bg-light"><span class="dot text-primary"></span><span>Искусство</span></a></li>
+                                                    <li>
+                                                        <span class="icon-text sm">
+                                                            <i class="fal fa-eye icon"></i><span class="cat-num">58</span>
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                                <h6 class="card-title"><a href="article-item.html" class="title-mask">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, dignissimos</a></h6>
                                                 <ul class="meta list-dot">
-                                                    <li>28 окт, 2022</li>
+                                                    <li>Автор</li>
+                                                    <li>20 мая, 2022</li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="card border-0 card-horizontal">
-                                        <div class="card-img-wrap sm">
-                                            <a href="#">
-                                                <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
-                                            </a>
-                                        </div>
-                                        <div class="card-body">
-                                            <div class="card-body-inner">
-                                                <h6 class="card-title">
-                                                    <a href="post-single.html" class="hover-underline">
-                                                        Lorem ipsum dolor sit, amet consectetur adipisicing.
-                                                    </a>
-                                                </h6>
-                                                <ul class="meta list-dot">
-                                                    <li>28 окт, 2022</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card border-0 card-horizontal">
-                                        <div class="card-img-wrap sm">
-                                            <a href="#">
-                                                <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
-                                            </a>
-                                        </div>
-                                        <div class="card-body">
-                                            <div class="card-body-inner">
-                                                <h6 class="card-title">
-                                                    <a href="post-single.html" class="hover-underline">
-                                                        Lorem ipsum dolor sit, amet consectetur adipisicing.
-                                                    </a>
-                                                </h6>
-                                                <ul class="meta list-dot">
-                                                    <li>28 окт, 2022</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                 </div><!-- .card-list -->                                 
+                                 </div>                                
                             </div>
 
                         </div>
@@ -873,7 +813,7 @@
                             <div class="card border-0 card-horizontal mb-4">
                                 <div class="card-img-wrap">
                                     <a href="#">
-                                        <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
+                                        <img src="https://dummyimage.com/400x300/c2ebff/fff" alt="" class="card-img">
                                     </a>
                                 </div>
                                 <div class="card-body">
@@ -896,7 +836,7 @@
                             <div class="card border-0 card-horizontal mb-4">
                                 <div class="card-img-wrap">
                                     <a href="#">
-                                        <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
+                                        <img src="https://dummyimage.com/400x300/c2ebff/fff" alt="" class="card-img">
                                     </a>
                                 </div>
                                 <div class="card-body">
@@ -919,7 +859,7 @@
                             <div class="card border-0 card-horizontal mb-4">
                                 <div class="card-img-wrap">
                                     <a href="#">
-                                        <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
+                                        <img src="https://dummyimage.com/400x300/c2ebff/fff" alt="" class="card-img">
                                     </a>
                                 </div>
                                 <div class="card-body">
@@ -942,7 +882,7 @@
                             <div class="card border-0 card-horizontal mb-4">
                                 <div class="card-img-wrap">
                                     <a href="#">
-                                        <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
+                                        <img src="https://dummyimage.com/400x300/c2ebff/fff" alt="" class="card-img">
                                     </a>
                                 </div>
                                 <div class="card-body">
@@ -965,7 +905,7 @@
                             <div class="card border-0 card-horizontal mb-4">
                                 <div class="card-img-wrap">
                                     <a href="#">
-                                        <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
+                                        <img src="https://dummyimage.com/400x300/c2ebff/fff" alt="" class="card-img">
                                     </a>
                                 </div>
                                 <div class="card-body">
@@ -988,7 +928,7 @@
                             <div class="card border-0 card-horizontal mb-4">
                                 <div class="card-img-wrap">
                                     <a href="#">
-                                        <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
+                                        <img src="https://dummyimage.com/400x300/c2ebff/fff" alt="" class="card-img">
                                     </a>
                                 </div>
                                 <div class="card-body">
@@ -1011,7 +951,7 @@
                             <div class="card border-0 card-horizontal mb-4">
                                 <div class="card-img-wrap">
                                     <a href="#">
-                                        <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
+                                        <img src="https://dummyimage.com/400x300/c2ebff/fff" alt="" class="card-img">
                                     </a>
                                 </div>
                                 <div class="card-body">
@@ -1034,7 +974,7 @@
                             <div class="card border-0 card-horizontal mb-4">
                                 <div class="card-img-wrap">
                                     <a href="#">
-                                        <img src="https://placeimg.com/400/300/nature" alt="" class="card-img">
+                                        <img src="https://dummyimage.com/400x300/c2ebff/fff" alt="" class="card-img">
                                     </a>
                                 </div>
                                 <div class="card-body">
@@ -1127,8 +1067,10 @@
         </div>
         </div>
         
+        <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/swiper-bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js"></script>
         <script src="js/functions.js"></script>
         <script src="js/main.js"></script>
         </body>
