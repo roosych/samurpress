@@ -467,7 +467,7 @@ progress {
 
 .blockquote {
   margin-bottom: 1rem;
-  font-size: 1.25rem; }
+  font-size: 1rem; }
   .blockquote > :last-child {
     margin-bottom: 0; }
 
@@ -8822,10 +8822,10 @@ textarea.form-control-lg {
   color: #f44336 !important; }
 
 .bg-light-100 {
-  background-color: #fafafa !important; }
+  background-color: #f1f1f1 !important; }
 
 .text-light-100 {
-  color: #fafafa !important; }
+  color: #f1f1f1 !important; }
 
 @media (min-width: 576px) {
   .wide-xs {
@@ -10334,7 +10334,7 @@ span + .icon {
       .menu-sub .menu-link::after {
         display: block; }
       .menu-sub .menu-link:hover {
-        background-color: #fafafa;
+        background-color: #f1f1f1;
         color: #f44336; }
         .menu-sub .menu-link:hover::after {
           background-color: #f44336;
@@ -11168,7 +11168,7 @@ span + .icon {
   background-repeat: no-repeat; }
 
 .bg-box {
-  background-color: #fafafa;
+  background-color: #f1f1f1;
   border-radius: 6px;
   padding: 20px 26px; }
 
@@ -11438,7 +11438,7 @@ span + .icon {
   display: flex;
   flex-direction: column; }
   .media.box {
-    background-color: #fafafa;
+    background-color: #f1f1f1;
     border-radius: 6px;
     padding: 30px; }
   .media.white {
