@@ -197,7 +197,7 @@ a {
   color: #234779;
   text-decoration: underline; }
   a:hover {
-    color: #c3362b; }
+    color: #234779; }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
@@ -2797,7 +2797,7 @@ textarea.form-control-lg {
   color: #6b7280;
   text-decoration: underline; }
   .btn-link:hover {
-    color: #c3362b; }
+    color: #234779; }
   .btn-link:disabled, .btn-link.disabled {
     color: #6b7280; }
 
@@ -10399,7 +10399,7 @@ span + .icon {
   background-size: 100% 2px; }
 
 .card-horizontal .card-img-wrap {
-  width: 140px;
+  width: 200px;
   flex-shrink: 0; }
   .card-horizontal .card-img-wrap.xs {
     width: 90px; }
